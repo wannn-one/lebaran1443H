@@ -47,7 +47,7 @@ Iya.addEventListener("click", function () {
         Image.setAttribute("src", "https://c.tenor.com/57JSPYRo0k8AAAAj/lebaran-selamat-lebaran.gif");
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Selamat hari raya Idul Fitri 1443 Hijriah!! Jangan Lupa tetap memperhatikan protokol kesehatan!!";
+        Text.innerHTML = "Selamat hari raya Idul Fitri 1443 Hijriah!! Jangan Lupa tetap memperhatikan protokol kesehatan!!!";
         Text.classList.add('text-animate');
         Iya.remove();
     }
