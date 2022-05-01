@@ -52,7 +52,7 @@ Iya.addEventListener("click", function () {
     }else if(Iya.value == 9){
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Jangan lupa tetap memperhatikan protokol kesehatan!";
+        Text.innerHTML = "Jangan lupa tetap memperhatikan protokol kesehatan!!";
         Text.classList.add('text-animate');
         Iya.remove();
     }
