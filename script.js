@@ -49,7 +49,7 @@ Iya.addEventListener("click", function () {
         void Text.offsetWidth; 
         Text.innerHTML = "Selamat hari raya Idul Fitri 1443 Hijriah!!";
         Text.classList.add('text-animate');
-    else if(Iya.value == 9){
+    }else if(Iya.value == 9){
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
         Text.innerHTML = "Jangan lupa tetap memperhatikan protokol kesehatan!!";
