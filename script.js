@@ -9,7 +9,7 @@ Iya.addEventListener("click", function () {
     if (Iya.value == 1) {
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Hallo ini saya Ikhwan!!";
+        Text.innerHTML = "Halo ini saya Ikhwan!!";
         Text.classList.add('text-animate');
     }else if (Iya.value == 2) {
         Text.classList.remove('text-animate');
@@ -52,7 +52,7 @@ Iya.addEventListener("click", function () {
     }else if(Iya.value == 9){
         Text.classList.remove('text-animate');
         void Text.offsetWidth; 
-        Text.innerHTML = "Jangan lupa tetap memperhatikan protokol kesehatan!!";
+        Text.innerHTML = "Tetaplah memperhatikan protokol kesehatan!!";
         Text.classList.add('text-animate');
         Iya.remove();
     }
